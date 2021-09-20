@@ -1,5 +1,4 @@
 import multiprocessing
-from multiprocessing.spawn import _main
 def do_task(data):
     return data*2
 def start_process():
